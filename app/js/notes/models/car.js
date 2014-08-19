@@ -11,6 +11,8 @@ var Car = Backbone.Model.extend({
     model: '',
     year: '',
     color: '',
+    license: '',
+    junk: 'false'
   }
 });
 
