@@ -7,6 +7,7 @@ var NotesCollection = require('../collections/notes-collection');
 //var NotesView = require('../collections/notes-collection');
 var NoteView = require('./note-view');
 
+
 module.exports = Backbone.View.extend({
   tagName:'div',
   initialize: function() {
