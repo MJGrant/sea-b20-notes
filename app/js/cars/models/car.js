@@ -4,7 +4,7 @@ var $ = require('jquery');
 Backbone.$ = $;
 
 var Car = Backbone.Model.extend({
-  url: '/api/v_0_0_1/notes',
+  url: '/api/v_0_0_1/cars',
   idAttribute: '_id',
   defaults: {
     make: '',

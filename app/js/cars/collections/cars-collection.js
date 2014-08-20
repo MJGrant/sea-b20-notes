@@ -5,6 +5,6 @@ Backbone.$ = $;
 var Car = require('../models/car');
 
 module.exports = Backbone.Collection.extend({
-  url: '/api/v_0_0_1/notes',
+  url: '/api/v_0_0_1/cars',
   model: Car
 });
