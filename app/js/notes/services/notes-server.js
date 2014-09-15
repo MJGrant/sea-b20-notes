@@ -8,7 +8,9 @@ module.exports = function(app) {
     };
 
     var errFunc = function(data, status) {
-      errFunc(data,status);
+      console.log('error!');
+      console.log(data);
+      console.log(status);
     };
 
     var note = {
